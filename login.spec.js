@@ -22,7 +22,7 @@ describe('login page', function() {
         // If you enter wrong email address, Show message ‘Wrong email address’
         it('wrong emailAddress validation', function() {
             loginPage.enterLoginID('coding@prct.com');
-            expect(loginPage.emailValidation.getText())).toBe('Wrong email address));
+            expect(loginPage.emailValidation.getText())).toBe('Wrong email address'));
         });
         // If you enter wrong password, Show message ‘Email address and password doesn’t match’
         it('Password Validation', function() {
